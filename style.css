@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=IM+Fell+French+Canon+SC&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Fenix&family=IM+Fell+French+Canon+SC&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main, aside {
+    font-family: 'Fenix', serif;
+}
+
+header div {
+    font-family: 'Alef', sans-serif;
+}
+
+.jumbotron {
+    background-color: #d01b59;
+    text-align: center;
+    color: rgb(241, 226, 226);
+    padding: 60px;
+    font-size: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(61, 58, 58);
+    border-radius: 18px;
+    padding: 25px;
+    margin-top: 25px;
+    background-color: #64122e;
+}
+
+main p {
+    font-size: 18px;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+nav {
+    background-color: #b62355;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 30px;
+    font-family: 'IM Fell French Canon SC', serif;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    padding: 11px;
+    border-radius: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+
+figure img {
+    width: 125px;
+    height: 175px;
+}
+
+main {
+    padding: 22px;
+    overflow: auto;
+    color: white;
+    background-image: url(../image/mole.jpg);
+    background-size: 350px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 15px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1000px){
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+footer {
+    font-family: 'IM Fell French Canon SC', serif;
+    background-color: #88304e;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 20px;
+}
